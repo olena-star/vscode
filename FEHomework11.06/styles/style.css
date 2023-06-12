@@ -1,0 +1,30 @@
+
+  #container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+
+  .product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .product img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .product .name {
+    font-weight: bold;
+  }
+
+  .product .rating {
+    color: orange;
+  }
+  .active {
+	color: orange
+}
+
+
