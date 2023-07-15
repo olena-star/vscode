@@ -43,10 +43,9 @@ body {
 }
 .common -title {
     text-align: center;
-    font-family: Merriweather,sans-serif;
+    font-family: 'Merriweather',sans-serif;
     line-height: 80px;
     font-size: 64px;
-    line-height: normal;
     letter-spacing: 1.92px;
     text-transform: uppercase;
 }
@@ -84,7 +83,7 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
-.menu-item a :hover {
+.menu-item a:hover {
     border-bottom: 2px solid white;
 }
 .currency {
@@ -111,7 +110,7 @@ position: relative;
 .main-info{
     max-width: 608px;
 }
-.main-small_info{
+.main-small-info{
     background: #d3320f;
     border-radius: 100px;
     padding: 12px 16px;
@@ -129,6 +128,7 @@ position: relative;
 .main-text {
     font-size: 24px;
     line-height: 29px;
+    margin-bottom: 56px;
 }
 .main-image {
     position: absolute;
@@ -175,7 +175,7 @@ background-image: url("../images/burgers_bg.png");
     gap: 24px;
     margin-top: 60px;
 }
-products-item {
+.products-item {
     padding: 30px;
     background: #211a16;
     border-radius: 16px;
@@ -210,15 +210,14 @@ products-item {
 }
 .products-item-weight {
     color:#757575;
-
-    font-family: Gilroy;
+    font-family: 'Gilroy',sans-serif;
     font-size: 16px;
     font-style: normal;
     line-height: 18px;
 }
 .button.product-button{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     width: 182px;
     height: 62px;
